@@ -2,7 +2,10 @@
   "users": [
     {
       "id": "8nvv1f54kcrsdxlq",
-      "name": "Vuong"
+      "name": "Vuong",
+      "phone": "02030930740",
+      "email": "vuongtran0104@gmail.com",
+      "password": "123456"
     },
     {
       "id": "8nvv1f54kcrsedsb",
@@ -13,22 +16,6 @@
       "name": "Vy"
     },
     {
-      "id": "8nvv1hcckcrsipc1",
-      "name": "Thang"
-    },
-    {
-      "id": "8nvv16hskcrv4jrf",
-      "name": "Tung"
-    },
-    {
-      "id": "8nvv1b1okcrv5nxf",
-      "name": "Anh"
-    },
-    {
-      "id": "8nvv1gs4kcrxqym2",
-      "name": "Truong"
-    },
-    {
       "id": "8nvv1fj0kct3c0ep",
       "name": "Nghia",
       "phone": "08030930740"
@@ -37,6 +24,11 @@
       "id": "8nvv1d9wkct55za0",
       "name": "Thy",
       "phone": "0123456789"
+    },
+    {
+      "id": "8nvv1fkckcujj4t2",
+      "name": "Umecho",
+      "phone": "12312312312"
     }
   ]
 }
