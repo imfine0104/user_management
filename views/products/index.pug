@@ -1,0 +1,17 @@
+extends ../layout
+block content
+    h1 
+        span Products
+    .d-flex
+        form.ml-auto.form-inline(action="/products/search", method = "GET")
+            input.form-control.mb-2(type="text", name="q", placeholder="Search...", value=q) 
+            button.ml-2.mb-2.btn.btn-primary Search
+    .card-deck.mb-3      
+        each product in products
+            .col-md-4.shadow-sm
+                img(src=product.image)
+                .ml-2
+                    h5=product.name
+                    p=product.description                   
+                    a.mb-2.btn.btn-info(href='#', role='button') View details
+                    
