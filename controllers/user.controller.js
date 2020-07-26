@@ -3,7 +3,7 @@ const uniqid = require('uniqid');
 
 module.exports = {
     index : function(req, res){
-        console.log(req.cookies);
+
         res.render('users/index', {
             users: db.get('users').value()
         });
